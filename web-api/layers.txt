@@ -1,0 +1,17 @@
+database
+    - a file wich store all app data
+
+src - all source code
+    - entities - object mappings
+    - factories - instance generatos
+    - repositories - data acess
+    - routes - endpoint mappings
+    - services - communication between routes and repositories layer (business logic)
+    - util - share code
+    - handler.js - communication between routes and server
+    - index.js - server instance
+
+tests -> all automated test suites
+    - integration tests - testing on the user point of view. itś also an E2E teste because thereś no app consuming itś
+    - unit tests
+        all test that must run without any external connections such as databases, external APIs and on our case, the fileSystem
